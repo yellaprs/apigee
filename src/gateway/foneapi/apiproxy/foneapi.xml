@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="foneapi">
+    <Basepaths>/foneapi</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1522332911665</CreatedAt>
+    <CreatedBy>ysailendra@gmail.com</CreatedBy>
+    <Description>A phone api for getting device specification</Description>
+    <DisplayName>foneapi</DisplayName>
+    <LastModifiedAt>1522333471927</LastModifiedAt>
+    <LastModifiedBy>ysailendra@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:52c4c36d98a9bc099ab3b1644b0090a60752920119c213505b0544fbe653443301a383530d7d840689112f1ecac3b29689cffcc6cefc755be8b6d653302c5de9</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

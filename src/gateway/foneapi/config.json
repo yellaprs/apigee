@@ -1,0 +1,59 @@
+{
+    "configurations": [
+        {
+            "name": "test",
+            "policies": [               
+            ],
+            "proxies": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
+                            "value": "/foneapi"
+                        }
+                    ]
+                }
+            ],
+            "targets": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
+                            "value": "https://fonoapi.freshpixl.com/v1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "prod",
+            "policies": [
+               
+            ],
+            "proxies": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
+                            "value": "/foneapi"
+                        }
+                    ]
+                }
+            ],
+            "targets": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
+                            "value": "https://fonoapi.freshpixl.com/v1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

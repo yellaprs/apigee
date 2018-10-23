@@ -17,6 +17,10 @@
     <artifactId>parent-pom</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+       <module>foneapi</module>
+       <module>hotelsapi</module>
+    </modules>	
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
